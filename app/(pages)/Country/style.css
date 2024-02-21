@@ -1,0 +1,6 @@
+.firstDiv{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: space-evenly;
+}
