@@ -1,6 +1,12 @@
+'use client'
 import "./globals.css"
-
+import { useRouter } from "@/node_modules/next/navigation" 
 const IndexPage = ()=>{
+    const router = useRouter()
+
+    const ExploreBtn = () =>{
+        router.push("/Country")
+    }
 
     return (
         <div className="homePage">
@@ -14,12 +20,10 @@ const IndexPage = ()=>{
                 </div>
 
                 <div>
-                   <button className="button-77" role="button">Button 37</button>                
+                   <button className="button-77" role="button"  onClick={ExploreBtn}>Explore</button>                
                 </div>
-
             </div>
             <div className="secondDiv">
-              HI
             </div>
         </div>
     )
