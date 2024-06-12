@@ -1,28 +1,28 @@
-.homePage{
-    background-image: url("../public//image/MicrosoftTeams-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    display: grid;
+.homePage {
+  background-image: url("../public//image/MicrosoftTeams-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
 }
 
-.firsttDiv{
- display: grid;
- font-size: medium; 
+.firsttDiv {
+  display: grid;
+  font-size: medium;
 }
 
-.headTitle{
+.headTitle {
   display: flex;
   align-items: end;
   margin-left: 5%;
 }
 
-
-.pDiv{
-    display: flex;
-    align-items: center;
-    margin-left: 5%;
+.pDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  font-size: large;
 }
 /* For Explore Button */
 
@@ -39,7 +39,7 @@
   display: inline-block;
   flex-direction: row;
   flex-shrink: 0;
-  font-family: Eina01,sans-serif;
+  font-family: Eina01, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -75,7 +75,7 @@
 }
 
 .button-77:before {
-  background-color: #C26A83;
+  background-color: #c26a83;
   content: "";
   display: block;
   height: 100%;
@@ -88,8 +88,8 @@
 }
 
 .button-77:after {
-  background-color: #AB2049;
-  background-image: linear-gradient(92.83deg, #AB2049 0, #AB2049 100%);
+  background-color: #ab2049;
+  background-image: linear-gradient(92.83deg, #ab2049 0, #ab2049 100%);
   bottom: 4px;
   content: "";
   display: block;
@@ -115,7 +115,12 @@
 }
 
 .button-77:active:not(:disabled):after {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #C26A83 0, #C26A83 100%);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    linear-gradient(92.83deg, #c26a83 0, #c26a83 100%);
   bottom: 4px;
   left: 4px;
   right: 4px;
@@ -124,14 +129,14 @@
 
 .button-77:disabled {
   cursor: default;
-  opacity: .24;
+  opacity: 0.24;
 }
 
 .pTag {
   font-size: 15px;
 }
 
-@media (max-width:1015px ) {
+@media (max-width: 1015px) {
   .homePage {
     background-image: none;
   }
@@ -152,13 +157,13 @@
   }
 }
 
-.secondDiv{
+.secondDiv {
   width: 750px;
-  gap: 1rem; 
+  gap: 1rem;
   margin: 0px 5% 0px 5%;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)); 
-  gap: 1rem; 
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .containerSecondDiv {
@@ -167,7 +172,7 @@
   align-items: center;
 }
 
-.secDiv-1{
+.secDiv-1 {
   width: 170px;
   height: 250px;
   color: #c6c6c6;
@@ -177,17 +182,14 @@
   background-color: rgb(229, 229, 229);
   border-radius: 10px;
   padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   background-position: 46% 1%;
 }
 
-.secHeading{
+.secHeading {
   margin-top: 85%;
   padding-bottom: 0.5rem;
   font-size: large;
 }
-
-
-
-
-
